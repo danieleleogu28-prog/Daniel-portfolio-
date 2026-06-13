@@ -129,13 +129,14 @@ header{
   position:relative;
   overflow:hidden;
 }
+
 .hero .container{
-  display:flex;
-  align-items:center;
-  gap:60px;
-  flex-wrap:wrap;
+  display:block;
 }
-.hero-text{flex:1 1 480px;}
+
+.hero-text{
+  max-width:650px;
+}
 .hero-text h1{
   font-size:3.2rem;
   margin-bottom:20px;
