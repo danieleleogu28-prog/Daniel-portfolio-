@@ -59,21 +59,21 @@ section{padding:90px 0;}
 }
 .btn-outline{
   background:transparent;
-  border:2px solid #18354B;
-  color:#18354B;
+  border:2px solid #ff6b35;
+  color:#ff6b35;
 }
 .btn-outline:hover{
   background:var(--white);
-  color:var(--navy);
+  color:var(--orange);
   transform:translateY(-3px);
 }
 .btn-dark-outline{
-  border:2px solid var(--navy);
-  color:var(--navy);
+  border:2px solid var(--orange);
+  color:var(--orange);
   background:transparent;
 }
 .btn-dark-outline:hover{
-  background:var(--navy);
+  background:var(--orange);
   color:var(--white);
   transform:translateY(-3px);
 }
