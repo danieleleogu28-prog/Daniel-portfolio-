@@ -59,8 +59,8 @@ section{padding:90px 0;}
 }
 .btn-outline{
   background:transparent;
-  border:2px solid var(--white);
-  color:var(--white);
+  border:2px solid #18354B;
+  color:#18354B;
 }
 .btn-outline:hover{
   background:var(--white);
@@ -124,8 +124,7 @@ header{
 
 /* ===== Hero ===== */
 .hero{
-  background:linear-gradient(135deg,var(--navy) 0%,#163a5c 100%);
-  color:var(--white);
+  color:#18354B;
   padding:100px 0;
   position:relative;
   overflow:hidden;
@@ -145,55 +144,12 @@ header{
 .hero-text h1 span{color:var(--orange);}
 .hero-text p{
   font-size:1.15rem;
-  color:#cdd9e4;
+  color:#4A6572;
   margin-bottom:32px;
   max-width:520px;
   animation:fadeUp 1s ease forwards;
 }
 .hero-buttons{display:flex;gap:18px;flex-wrap:wrap;animation:fadeUp 1.2s ease forwards;}
-
-.hero-image{
-  flex:1 1 420px;
-  position:relative;
-  border-radius:var(--radius);
-  overflow:hidden;
-  box-shadow:0 25px 60px rgba(0,0,0,0.35);
-  border:6px solid rgba(255,255,255,0.08);
-}
-.hero-image img{
-  width:100%;
-  display:block;
-  filter:saturate(0.95) contrast(1.02);
-}
-.hero-image::after{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:linear-gradient(180deg,rgba(13,43,69,0) 55%,rgba(13,43,69,0.55) 100%);
-  pointer-events:none;
-}
-.hero-cta-button{
-  position:absolute;
-  left:50%;
-  bottom:8%;
-  transform:translateX(-50%);
-  background:var(--orange);
-  color:var(--white);
-  padding:14px 30px;
-  border-radius:50px;
-  font-weight:700;
-  font-size:.95rem;
-  letter-spacing:.4px;
-  z-index:5;
-  box-shadow:0 10px 25px rgba(255,107,53,0.5);
-  transition:var(--transition);
-  white-space:nowrap;
-}
-.hero-cta-button:hover{
-  transform:translateX(-50%) translateY(-4px) scale(1.04);
-  background:var(--white);
-  color:var(--orange);
-}
 
 @keyframes fadeUp{
   from{opacity:0;transform:translateY(24px);}
